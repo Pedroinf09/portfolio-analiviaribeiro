@@ -1,0 +1,124 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-decoration: none;
+   list-style-type: none;
+   }
+
+   body {
+      background:black;
+   }
+
+hr{
+   background-color:pink;
+   width: 100%;
+   padding: 20px;
+   height: 35px;
+   border-color: pink;
+   margin: 4px;
+   padding-top: 15px;
+}
+
+
+
+.logo{
+   width: 1000px;
+   height: auto;
+   position: fixed;
+  right: 100px;
+   
+    
+}
+
+/*CABEÇARIO*/
+header{
+   display: flex;
+   justify-content: space-around;
+   max-width: 100%;
+   align-items: center;
+   text-align:center ;
+   padding-top: 1rem;
+   position: fixed;
+}
+.cabecario{
+   display: flex;
+   gap: 3rem;
+   font-weight: 300px; 
+   cursor: pointer; 
+ }
+
+.cabecario a{
+   color: rgb(227, 145, 159);
+   font-size: 20px;
+   transition: fixed;
+   margin-right: 25px;
+  justify-content: space-between ;
+  
+}
+
+
+
+
+.cabecario a:hover{
+   color: rgb(165, 33, 103);
+   transition: 0.3ms all;
+}
+/*CONTATO*/
+button{
+   background-color: black;
+   color: #f8b9b2;
+}
+   nav .cntt{
+      color: pink;
+      background: transparent;
+      border: solid 1px pink;
+      padding: 5px;
+      border-radius: 25px;
+      font-size: 12px;
+      width: 150px;
+      
+   }
+   nav  .cntt:hover{
+      background: color #f8b9b2
+      color pink;
+      
+   }
+
+/*IMAGEM INICIO*/
+IMG{  
+   padding-left: 1000px;
+  width: 1250px;
+
+ 
+
+}
+
+/*TEXTO INICIO*/
+.cntt{
+   color: rgb(228, 150, 150);
+  margin-top: 450px;
+   width: 650px;
+   font-size: 21px;
+
+ 
+}
+.cntt h1{
+   color: white;
+}
+.cntt h1 span{
+   color: rgb(216, 138, 151);
+}
+
+      
+/*TEXTO INICIO*/
+.t-sobre{
+   color:rgb(209, 148, 159);
+   padding-bottom: 600px;
+   width: 700px;
+}
+.t-sobre h2{
+   color: white;
+   font-size: 45px;
+}
